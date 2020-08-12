@@ -1,2 +1,3 @@
 # Docker-Project
-Hosts the Docker files for jacobs server
+My Docker files for hosting game servers
+
