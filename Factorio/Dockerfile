@@ -12,6 +12,7 @@ RUN wget --content-disposition "https://www.factorio.com/get-download/latest/hea
 RUN mv *.tar* /opt/
 
 # unzip dedicated_server
+RUN ls -la /opt
 RUN tar -xf /opt/*.tar.xz
 
 CMD [“echo”,”Image created”]
